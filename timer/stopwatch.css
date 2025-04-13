@@ -1,0 +1,62 @@
+#myh1{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body{
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+#container{
+    margin: auto;
+    height: 20vh;
+    width:500px;
+    border: 7px solid;
+    border-radius: 55px ;
+
+    background-color: rgb(236, 233, 228);
+    cursor: pointer;
+
+}
+
+#display{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#buttons button{
+    font-family: sans-serif;
+    border: none;
+   border-radius: 10px;
+   font-size: 1.5rem;
+   min-width: 120px;
+   padding: 10px 20px;
+   margin: 5px;
+   cursor: pointer;
+}
+
+#startBtn{
+    background-color: hsl(0, 100%, 50%);
+}
+
+#startBtn:hover{
+    background-color: hsl(0, 100%, 35%);;
+}
+
+#stopBtn{
+    background-color: hsl(243, 100%, 50%);
+}
+
+#stopBtn:hover{
+    background-color:hsl(243, 100%, 35%);
+}
+
+#ResetBtn{
+    background-color: hsl(150, 52%, 54%);
+}
+
+#ResetBtn:hover{
+    background-color: hsl(150, 82%, 34%);
+}
